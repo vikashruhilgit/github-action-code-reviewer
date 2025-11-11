@@ -1,0 +1,36 @@
+name: 'AI Code Reviewer'
+description: 'Automated code review using Claude AI with project-specific patterns from CLAUDE.md'
+author: 'vikash ruhil'
+
+branding:
+  icon: 'check-circle'
+  color: 'blue'
+
+inputs:
+  anthropic_api_key:
+    description: 'Anthropic API key for Claude AI'
+    required: true
+  github_token:
+    description: 'GitHub token for posting PR comments'
+    required: true
+    default: ${{ github.token }}
+  model:
+    description: 'Claude model to use for review'
+    required: false
+    default: 'claude-sonnet-4-5-20250929'
+  review_on:
+    description: 'When to review: opened, synchronize, or both'
+    required: false
+    default: 'opened,synchronize'
+
+outputs:
+  review_posted:
+    description: 'Whether a review comment was posted'
+  issues_found:
+    description: 'Number of issues found (BLOCKING + HIGH + MEDIUM)'
+  blocking_issues:
+    description: 'Number of blocking issues found'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
