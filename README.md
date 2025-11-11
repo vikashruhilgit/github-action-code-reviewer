@@ -1,6 +1,6 @@
 # AI Code Reviewer - GitHub Action
 
-test git action
+test git action.
 
 Automated code review using Claude AI with project-specific patterns from CLAUDE.md. This action uses the same code-reviewer agent logic from the [ai-agent-manager](https://github.com/vikashruhil/ai-agent-manager) project.
 
