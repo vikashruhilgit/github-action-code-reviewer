@@ -1,6 +1,6 @@
 # Architecture Documentation
 
-This document explains how the AI Code Reviewer GitHub Action works internally.
+This document explains how the Ruhil AI Code Reviewer  GitHub Action works internally.
 
 ## Overview
 

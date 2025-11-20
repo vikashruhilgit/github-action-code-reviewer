@@ -1,6 +1,6 @@
 # Deployment Guide
 
-This guide explains how to publish the AI Code Reviewer GitHub Action.
+This guide explains how to publish the Ruhil AI Code Reviewer  GitHub Action.
 
 ## Prerequisites
 
@@ -22,7 +22,7 @@ git init
 git add .
 
 # Commit
-git commit -m "feat: initial release of AI Code Reviewer GitHub Action
+git commit -m "feat: initial release of Ruhil AI Code Reviewer  GitHub Action
 
 - Automated PR reviews using Claude AI
 - Reads project-specific patterns from CLAUDE.md

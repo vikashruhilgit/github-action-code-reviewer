@@ -1,4 +1,4 @@
-# AI Code Reviewer - GitHub Action
+# Ruhil AI Code Reviewer  - GitHub Action
 
 Automated code review using Claude AI with project-specific patterns from CLAUDE.md. This action uses the same code-reviewer agent logic from the [ai-agent-manager](https://github.com/vikashruhil/ai-agent-manager) project.
 
